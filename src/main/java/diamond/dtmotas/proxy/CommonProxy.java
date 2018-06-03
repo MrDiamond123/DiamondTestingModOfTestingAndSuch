@@ -1,5 +1,6 @@
 package diamond.dtmotas.proxy;
 
+import diamond.dtmotas.items.ItemCrystal;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -26,6 +27,7 @@ public class CommonProxy {
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
+        event.getRegistry().register(new ItemCrystal());
     }
 }
 
