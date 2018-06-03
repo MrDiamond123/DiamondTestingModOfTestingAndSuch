@@ -1,6 +1,7 @@
-package diamond.dtmotas.blocks;
+package diamond.dtmotas;
 
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import diamond.dtmotas.blocks.*;
 
 public class ModBlocks {
 

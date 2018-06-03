@@ -1,5 +1,6 @@
-package diamond.dtmotas.items;
+package diamond.dtmotas;
 
+import diamond.dtmotas.items.*;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
