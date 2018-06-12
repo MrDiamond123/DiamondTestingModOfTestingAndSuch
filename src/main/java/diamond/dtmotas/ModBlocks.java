@@ -8,6 +8,8 @@ public class ModBlocks {
     @GameRegistry.ObjectHolder("dtmotas:blockcompressedcrystal")
     public static BlockCompressedCrystal blockCompressedCrystal;
 
+    public static void initModels() {
 
+    }
 
 }

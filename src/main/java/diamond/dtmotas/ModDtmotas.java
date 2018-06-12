@@ -11,7 +11,7 @@ import org.apache.logging.log4j.Logger;
 @Mod(modid = ModDtmotas.MODID, name = ModDtmotas.MODNAME, version = ModDtmotas.MODVERSION, dependencies = "required-after:forge@[11.16.0.1865,)", useMetadata = true)
 public class ModDtmotas {
 
-    public static final String MODID = "dtmostas";
+    public static final String MODID = "dtmotas";
     public static final String MODNAME = "Diamond's Testing Mod Of Testing and Such";
     public static final String MODVERSION = "0.0.1";
 

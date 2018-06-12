@@ -4,6 +4,7 @@ import diamond.dtmotas.ModDtmotas;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
+
 public class BlockCompressedCrystal extends Block {
 
     public BlockCompressedCrystal(){
@@ -11,5 +12,7 @@ public class BlockCompressedCrystal extends Block {
         setUnlocalizedName(ModDtmotas.MODID + ".blockcompressedcrystal");
         setRegistryName("blockcompressedcrystal");
     }
+
+
 
 }
