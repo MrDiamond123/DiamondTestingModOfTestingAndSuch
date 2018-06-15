@@ -9,7 +9,7 @@ public class ModBlocks {
     public static BlockCompressedCrystal blockCompressedCrystal;
 
     public static void initModels() {
-
+        blockCompressedCrystal.initModel();
     }
 
 }

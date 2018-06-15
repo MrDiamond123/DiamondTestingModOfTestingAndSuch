@@ -14,8 +14,10 @@ public class BlockCompressedCrystal extends Block {
 
     public BlockCompressedCrystal(){
         super(Material.ROCK);
-        setUnlocalizedName(ModDtmotas.MODID + ".blockcompressedcrystal");
+        setHardness(1.5F);
         setRegistryName("blockcompressedcrystal");
+        setUnlocalizedName(ModDtmotas.MODID + ".blockcompressedcrystal");
+
     }
 
     @SideOnly(Side.CLIENT)

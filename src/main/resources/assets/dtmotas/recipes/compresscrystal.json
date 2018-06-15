@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dtmotas:itemcrystal"
+    }
+  },
+  "result": {
+    "item": "dtmotas:blockcompressedcrystal",
+    "count": 1
+  },
+  "group": "Compress Items Into Blocks"
+}
