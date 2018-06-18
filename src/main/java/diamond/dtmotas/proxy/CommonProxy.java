@@ -4,6 +4,7 @@ import diamond.dtmotas.blocks.BlockCompressedCrystal;
 import diamond.dtmotas.ModBlocks;
 import diamond.dtmotas.blocks.BlockOreCrystal;
 import diamond.dtmotas.items.ItemCrystal;
+import diamond.dtmotas.world.ModWorldGen;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -13,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 
 @Mod.EventBusSubscriber
@@ -22,6 +23,8 @@ public class CommonProxy {
     }
 
     public void init(FMLInitializationEvent event) {
+        GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
+
     }
 
     public void postInit(FMLPostInitializationEvent event) {

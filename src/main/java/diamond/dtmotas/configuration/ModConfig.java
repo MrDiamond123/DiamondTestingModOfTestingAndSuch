@@ -21,7 +21,7 @@ public class ModConfig {
     public static int oreMinY = 0;
 
     @Config.LangKey("config.worldgen.maxY")
-    public static int oreMaxY = 16;
+    public static int oreMaxY = 25;
 
     @Mod.EventBusSubscriber(modid = ModDtmotas.MODID)
     private static class EventHandler {
