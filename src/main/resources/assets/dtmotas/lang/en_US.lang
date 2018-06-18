@@ -1,2 +1,11 @@
 item.dtmotas.itemcrystal.name= Crystal
 tile.dtmotas.blockcompressedcrystal.name= Compressed Crystal Block
+
+config.worldgen.chances=Ore Chance
+config.worldgen.chances.tooltip=Number of chances per attempt
+config.worldgen.veins=Ore Vein Size
+config.worldgen.veins.tooltip=Maximum vein size
+config.worldgen.minY=Ore Y Min
+config.worldgen.minY.tooltip=Minimum Y coordinate
+config.worldgen.maxY=Ore Y Max
+config.worldgen.maxY.tooltip=Maximum Y coordinate

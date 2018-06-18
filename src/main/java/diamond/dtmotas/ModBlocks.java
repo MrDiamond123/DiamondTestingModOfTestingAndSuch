@@ -7,9 +7,12 @@ public class ModBlocks {
 
     @GameRegistry.ObjectHolder("dtmotas:blockcompressedcrystal")
     public static BlockCompressedCrystal blockCompressedCrystal;
+    @GameRegistry.ObjectHolder("dtmotas:blockorecrystal")
+    public static BlockOreCrystal blockOreCrystal;
 
     public static void initModels() {
         blockCompressedCrystal.initModel();
+        blockOreCrystal.initModel();
     }
 
 }
