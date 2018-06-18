@@ -15,6 +15,7 @@ public class ModDtmotas {
     public static final String MODNAME = "Diamond's Testing Mod Of Testing and Such";
     public static final String MODVERSION = "0.0.1";
 
+
     @SidedProxy(clientSide = "diamond.dtmotas.proxy.ClientProxy", serverSide = "diamond.dtmotas.proxy.ServerProxy")
     public static CommonProxy proxy;
 
