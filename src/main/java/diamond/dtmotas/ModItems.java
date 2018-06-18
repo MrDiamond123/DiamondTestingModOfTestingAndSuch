@@ -13,7 +13,7 @@ public class ModItems {
 
     // MATERIALS
 
-    public static final Item.ToolMaterial MATERIAL_CRYSTAL = EnumHelper.addToolMaterial("material_crystal", 4, 2000, 10.0F, 4.5F, 22);
+    public static final Item.ToolMaterial MATERIAL_CRYSTAL = EnumHelper.addToolMaterial("material_crystal", 4, 2000, 10.0F, 8.0F, 22);
 
     // ITEMS
 
