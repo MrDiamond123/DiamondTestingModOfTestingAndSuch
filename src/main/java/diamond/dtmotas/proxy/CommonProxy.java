@@ -5,6 +5,9 @@ import diamond.dtmotas.ModBlocks;
 import diamond.dtmotas.blocks.BlockOreCrystal;
 import diamond.dtmotas.items.ItemCrystal;
 import diamond.dtmotas.items.tools.AxeCrystal;
+import diamond.dtmotas.items.tools.PickaxeCrystal;
+import diamond.dtmotas.items.tools.ShovelCrystal;
+import diamond.dtmotas.items.tools.SwordCrystal;
 import diamond.dtmotas.world.ModWorldGen;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -41,6 +44,10 @@ public class CommonProxy {
     public static void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new ItemCrystal());
         event.getRegistry().register(new AxeCrystal());
+        event.getRegistry().register(new PickaxeCrystal());
+        event.getRegistry().register(new ShovelCrystal());
+        event.getRegistry().register(new SwordCrystal());
+
         event.getRegistry().register(new ItemBlock(ModBlocks.blockCompressedCrystal).setRegistryName(ModBlocks.blockCompressedCrystal.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.blockOreCrystal).setRegistryName(ModBlocks.blockOreCrystal.getRegistryName()));
     }

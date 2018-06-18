@@ -4,6 +4,7 @@ import diamond.dtmotas.ModDtmotas;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
@@ -17,7 +18,7 @@ public class BlockCompressedCrystal extends Block {
         setHardness(1.5F);
         setRegistryName("blockcompressedcrystal");
         setUnlocalizedName(ModDtmotas.MODID + ".blockcompressedcrystal");
-
+        setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
     }
 
     @SideOnly(Side.CLIENT)

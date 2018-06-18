@@ -14,7 +14,7 @@ import static diamond.dtmotas.ModItems.MATERIAL_CRYSTAL;
 
 public class AxeCrystal extends ItemAxe {
     public AxeCrystal() {
-        super(MATERIAL_CRYSTAL);
+        super(MATERIAL_CRYSTAL, 8.5F, 10.0F);
         setRegistryName("axecrystal");
         setUnlocalizedName(ModDtmotas.MODID + ".axecrystal");
         setCreativeTab(CreativeTabs.TOOLS);

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#D#",
+    "i#i"
+  ],
+  "key": {
+    "#": {
+      "item": "dtmotas:itemcrystal"
+    },
+    "D": {
+      "item": "minecraft:diamond_sword"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "dtmotas:swordcrystal",
+    "count": 1
+  },
+  "group": "Crystal Tools"
+}

@@ -1,5 +1,11 @@
 item.dtmotas.itemcrystal.name= Crystal
+item.dtmotas.axecrystal.name= Crystal Axe
+item.dtmotas.pickaxecrystal.name= Crystal Pickaxe
+item.dtmotas.shovelcrystal.name= Crystal Shovel
+item.dtmotas.swordcrystal.name= Crystal Sword
+
 tile.dtmotas.blockcompressedcrystal.name= Compressed Crystal Block
+tile.dtmotas.blockorecrystal.name= Crystal Ore
 
 config.worldgen.chances=Ore Chance
 config.worldgen.chances.tooltip=Number of chances per attempt

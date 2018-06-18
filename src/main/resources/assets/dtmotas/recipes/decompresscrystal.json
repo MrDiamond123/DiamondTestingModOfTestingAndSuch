@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "dtmotas:blockcompressedcrystal"
+    }
+  },
+  "result": {
+    "item": "dtmotas:itemcrystal",
+    "count": 9
+  },
+  "group": "Decompress Blocks Into Items"
+}

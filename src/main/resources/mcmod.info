@@ -1,0 +1,9 @@
+[{
+  "modid": "dtmotas",
+  "name": "Diamond's Testing Mod Of Testing and Such",
+  "description": "It's just a testing mod",
+  "version": "0.1.0",
+  "mcversion": "1.12.2",
+  "authorList": ["DiamondMCPro (Author)", "OR/IN (Artist)"],
+  "credits": "I thank the great Minecraft Mod Development Discord for all of the support!"
+}]
