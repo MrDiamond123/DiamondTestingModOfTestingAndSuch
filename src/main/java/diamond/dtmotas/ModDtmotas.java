@@ -13,7 +13,7 @@ public class ModDtmotas {
 
     public static final String MODID = "dtmotas";
     public static final String MODNAME = "Diamond's Testing Mod Of Testing and Such";
-    public static final String MODVERSION = "0.0.1";
+    public static final String MODVERSION = "0.1.0";
 
 
     @SidedProxy(clientSide = "diamond.dtmotas.proxy.ClientProxy", serverSide = "diamond.dtmotas.proxy.ServerProxy")

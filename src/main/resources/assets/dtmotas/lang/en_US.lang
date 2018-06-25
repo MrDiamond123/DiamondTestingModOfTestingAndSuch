@@ -4,6 +4,8 @@ item.dtmotas.pickaxecrystal.name= Crystal Pickaxe
 item.dtmotas.shovelcrystal.name= Crystal Shovel
 item.dtmotas.swordcrystal.name= Crystal Sword
 
+item.crystal.name= Test Crystal Item
+
 tile.dtmotas.blockcompressedcrystal.name= Compressed Crystal Block
 tile.dtmotas.blockorecrystal.name= Crystal Ore
 

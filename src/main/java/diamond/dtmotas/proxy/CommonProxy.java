@@ -3,11 +3,10 @@ package diamond.dtmotas.proxy;
 import diamond.dtmotas.blocks.BlockCompressedCrystal;
 import diamond.dtmotas.ModBlocks;
 import diamond.dtmotas.blocks.BlockOreCrystal;
-import diamond.dtmotas.items.ItemCrystal;
-import diamond.dtmotas.items.tools.AxeCrystal;
-import diamond.dtmotas.items.tools.PickaxeCrystal;
-import diamond.dtmotas.items.tools.ShovelCrystal;
-import diamond.dtmotas.items.tools.SwordCrystal;
+import diamond.dtmotas.items.tools.ToolAxe;
+import diamond.dtmotas.items.tools.ToolPickaxe;
+import diamond.dtmotas.items.tools.ToolSpade;
+import diamond.dtmotas.items.tools.ToolSword;
 import diamond.dtmotas.world.ModWorldGen;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -23,6 +22,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod.EventBusSubscriber
 public class CommonProxy {
+
+    public void registerItemRenderer(Item item, int meta, String id) {}
+
+
     public void preInit(FMLPreInitializationEvent event) {
     }
 
@@ -42,11 +45,6 @@ public class CommonProxy {
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
-        event.getRegistry().register(new ItemCrystal());
-        event.getRegistry().register(new AxeCrystal());
-        event.getRegistry().register(new PickaxeCrystal());
-        event.getRegistry().register(new ShovelCrystal());
-        event.getRegistry().register(new SwordCrystal());
 
         event.getRegistry().register(new ItemBlock(ModBlocks.blockCompressedCrystal).setRegistryName(ModBlocks.blockCompressedCrystal.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.blockOreCrystal).setRegistryName(ModBlocks.blockOreCrystal.getRegistryName()));

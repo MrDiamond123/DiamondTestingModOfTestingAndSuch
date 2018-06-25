@@ -5,6 +5,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModCrafting {
    public static void init(){
-       GameRegistry.addSmelting(ModBlocks.blockOreCrystal, new ItemStack(ModItems.itemCrystal, 1), 2f);
+       GameRegistry.addSmelting(ModBlocks.blockOreCrystal, new ItemStack(ModItems.CRYSTAL, 1), 2f);
    }
 }
