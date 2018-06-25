@@ -18,7 +18,7 @@ public class ModWorldGen implements IWorldGenerator {
     @Override
     public void generate(Random rand, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
         if (ModConfig.oreChance > 0 && ModConfig.oreVeinSize > 0 && world.provider.getDimensionType() == DimensionType.OVERWORLD) {
-            WorldGenMinable generator = new WorldGenMinable(ModBlocks.blockOreCrystal.getDefaultState(), rand.nextInt(ModConfig.oreVeinSize));
+            WorldGenMinable generator = new WorldGenMinable(ModBlocks.CRYSTAL_ORE.getDefaultState(), rand.nextInt(ModConfig.oreVeinSize));
             int yDiff = ModConfig.oreMaxY - ModConfig.oreMinY + 1;
             for (int i = 0; i < ModConfig.oreChance; i++) {
                 generator.generate(world, rand, new BlockPos(
