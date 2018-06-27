@@ -9,8 +9,6 @@ public class BlockOreCrystal extends BlockBase {
 
     public BlockOreCrystal(String name, Material material) {
         super(name, material);
-        setRegistryName(name);
-        setUnlocalizedName(name);
 
         setHardness(20.0F);
         setResistance(30.0F);
