@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "dtmotas:itemcrystal"
+    },
+    "title": {
+      "translate": "advancements.story.mine_crystal.title"
+    },
+    "description": {
+      "translate": "advancements.story.mine_crystal.description"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "dtmotas:crystalpickaxe",
+      "dtmotas:crystalshovel",
+      "dtmotas:crystalsword",
+      "dtmotas:crystalaxe",
+      "dtmotas:crystalhelmet",
+      "dtmotas:crystalchestplate",
+      "dtmotas:crystalleggings",
+      "dtmotas:crystalboots"
+
+    ]
+  },
+  "criteria": {
+    "crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dtmotas:itemcrystal"
+          }
+        ]
+      }
+    }
+  }
+}

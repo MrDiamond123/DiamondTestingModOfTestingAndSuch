@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#D#",
+    "i#i"
+  ],
+  "key": {
+    "#": {
+      "item": "dtmotas:itemcrystal"
+    },
+    "D": {
+      "item": "minecraft:diamond_boots"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "dtmotas:bootscrystal",
+    "count": 1
+  },
+  "group": "Crystal Armor"
+}
