@@ -4,10 +4,10 @@
       "item": "dtmotas:itemcrystal"
     },
     "title": {
-      "translate": "advancements.story.mine_crystal.title"
+      "translate": "advancements.crystal.mine_crystal.title"
     },
     "description": {
-      "translate": "advancements.story.mine_crystal.description"
+      "translate": "advancements.crystal.mine_crystal.description"
     }
   },
   "rewards": {

@@ -4,16 +4,24 @@ item.pickaxecrystal.name= Crystal Pickaxe
 item.shovelcrystal.name= Crystal Shovel
 item.swordcrystal.name= Crystal Sword
 
+item.helmetcrystal.name= Crystal Helmet
+item.chestplatecrystal.name= Crystal Chestplate
+item.leggingscrystal.name= Crystal Leggings
+item.bootscrystal.name= Crystal Boots
+
+
+advancements.crystal.mine_crystal.title= Crystals!
+advancements.crystal.mine_crystal.description= You just got some crystals, now do something with them!
 
 
 tile.blockcompressedcrystal.name= Compressed Crystal Block
 tile.blockorecrystal.name= Crystal Ore
 
-config.worldgen.chances=Ore Chance
-config.worldgen.chances.tooltip=Number of chances per attempt
-config.worldgen.veins=Ore Vein Size
-config.worldgen.veins.tooltip=Maximum vein size
-config.worldgen.minY=Ore Y Min
-config.worldgen.minY.tooltip=Minimum Y coordinate
-config.worldgen.maxY=Ore Y Max
-config.worldgen.maxY.tooltip=Maximum Y coordinate
+config.worldgen.chances= Ore Chance
+config.worldgen.chances.tooltip= Number of chances per attempt
+config.worldgen.veins= Ore Vein Size
+config.worldgen.veins.tooltip= Maximum vein size
+config.worldgen.minY= Ore Y Min
+config.worldgen.minY.tooltip= Minimum Y coordinate
+config.worldgen.maxY= Ore Y Max
+config.worldgen.maxY.tooltip= Maximum Y coordinate

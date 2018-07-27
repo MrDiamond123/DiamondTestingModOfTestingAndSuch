@@ -26,7 +26,7 @@ public class ModItems {
 
     // MATERIALS
     public static final Item.ToolMaterial MATERIAL_CRYSTAL = EnumHelper.addToolMaterial("material_crystal", 4, 2000, 10.0F, 4.5F, 22);
-    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_CRYSTAL = EnumHelper.addArmorMaterial("armor_material_crystal",ModDtmotas.MODID + "crystal",44, new int[] {4, 7, 9, 4}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 10F);
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_CRYSTAL = EnumHelper.addArmorMaterial("armor_material_crystal",ModDtmotas.MODID + ":crystal",44, new int[] {4, 7, 9, 4}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 10F);
 
     // ITEMS
     public static final Item CRYSTAL = new ItemBase("itemcrystal");
